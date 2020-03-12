@@ -318,18 +318,7 @@ if __name__ == '__main__':
             threadsayisi=option.thread
         else:
             threadsayisi=20
-            
-           
-            
-        print("""
-        #######################################################
-        #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-        #              SubDomain TakeOver v1.5                #
-        #                    Coder: 0x94                      #
-        #                  twitter.com/0x94                   #
-        #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-        #######################################################  
-        """)          
+                   
         if option.filem:
             x=hazirla(option.domain,option.wordlist,threadsayisi,option.filem)
         else:
